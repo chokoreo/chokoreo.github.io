@@ -1,0 +1,48 @@
+</head>
+
+<body bgcolor="#FFFFCC">
+<h1 class="cp_h1title">らあめん日記</font></h1>
+<div class="marker">
+<h2><span class="sennhiku">わたしの好きなラーメンはこれだ！！<span></span></span></h2>
+</div>
+<hr size=10 color=navy>
+<details>
+    <summary>各ラーメン店のサイト</summary>
+    <h3><ol>
+    	<li>オススメ1：<a href="http://www.ramenya-mitsuba.com/">ラーメン家みつ葉</a></li>
+		<li>オススメ2：<a href="https://ramenkikuhan.gorp.jp/">らぁ麺きくはん</a></li>
+		<li>オススメ3：<a href="https://twitter.com/moeyo_mensuke">燃えよ麺助</a></li>
+		<li>オススメ4：<a href="https://twitter.com/rnagomi">らーめん専門和海</a></li>
+		<li>オススメ5：<a href="https://gifu-tanmen.com/">岐阜タンメン</a></li>
+		<li>オススメ6：<a href="https://twitter.com/menyanaruto">麵屋なる戸</a></li>
+		<li>オススメ7：<a href="https://noroma.net/">麵屋NOROMA</a></li>
+		<li>オススメ8：<a href="http://shekarashika.com/">しぇからしか</a></li>
+		<li>オススメ9：<a href="https://www.ramen-uroko.com/">らーめん鱗</a></li>
+		<li>オススメ10：<a href="http://www.jinrui-minamenrui.com/">人類みな麺類</a></li>
+	<ol></h3>
+</details>
+<br>
+<div class="main">
+<img src="myimg/pic1.jpg" id="pict">
+<p id="no" class="no1" align=absmiddle>オススメ1</p>
+<button id="mae_btn" disabled="disabled" onclick="maeBtnClick();">←back</button>
+<button id="tugi_btn" onclick="tugiBtnClick();">next→</button>
+</div>
+<br><br><br><br>
+<div class="omake">
+～今日の運勢を占ってみよう～
+<form><input type="button" value="ここをクリック！" onClick="random()"></form>
+<script type="text/javascript">
+function random() {
+var rand = Math.floor( Math.random() * 5); 
+	if (rand == 0) msg = "大吉";
+	if (rand == 1) msg = "中吉";
+	if (rand == 2) msg = "小吉";
+	if (rand == 3) msg = "吉";
+	if (rand == 4) msg = "凶";
+	alert(msg);
+}
+</script>
+</div>
+</body>
+</html>
