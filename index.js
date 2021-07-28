@@ -1,4 +1,4 @@
-ar pictNo=1;
+var pictNo=1;
 function tugiBtnClick(){
 	pictNo++;
 	document.getElementById('no').innerHTML='オススメ'+pictNo;
